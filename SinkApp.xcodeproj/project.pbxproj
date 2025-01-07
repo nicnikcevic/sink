@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		AA40BBC22D2CA4A8004EA95F /* design.md in Resources */ = {isa = PBXBuildFile; fileRef = AA40BBC12D2CA49F004EA95F /* design.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		AA40BB962D2CA296004EA95F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +31,7 @@
 		AA40BB852D2CA293004EA95F /* SinkApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SinkApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA40BB952D2CA296004EA95F /* SinkAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SinkAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA40BB9F2D2CA296004EA95F /* SinkAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SinkAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA40BBC12D2CA49F004EA95F /* design.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = design.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -79,6 +84,7 @@
 				AA40BB982D2CA296004EA95F /* SinkAppTests */,
 				AA40BBA22D2CA296004EA95F /* SinkAppUITests */,
 				AA40BB862D2CA293004EA95F /* Products */,
+				AA40BBC12D2CA49F004EA95F /* design.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -212,6 +218,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA40BBC22D2CA4A8004EA95F /* design.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
