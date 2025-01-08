@@ -15,3 +15,18 @@ This component will be written in Swift.
 ## Player Algorithm
 
 The algorithm will be based off the chess ELO algorithm.
+
+## Big Questions:
+
+### How the files in the project interact with each other?
+
+### We need to plan the file heirarchy of our project?
+
+- do we have a style sheet?
+- is each view/window it's own file?
+- Where is the navigational logic kept?
+- How will we store data?
+- How do we link backend to frontent?
+- Where is algorithm logic kept?
+
+
