@@ -42,3 +42,7 @@ Optional questions for future iterations of the algorithm:
 
 The overall design of the app will be simple and maximized for readable. Consider the places this app will be used, and the mental state of it's users, it should be as streamlined and intuitive as possible
 
+# Future Features
+
+- Digital moving up in leaderboard
+
