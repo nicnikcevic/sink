@@ -17,7 +17,10 @@ This component will be written in Swift.
 - Supabase, look into
 - good documentation
 - takes care of lots annoying stuff, like authentification
-- 
+
+#### Notes
+- Need to create policies to query data
+
 
 ## Player Algorithm
 
