@@ -42,7 +42,7 @@ struct ContentView: View {
                     }
                     .tag(Tab.addGame)
 
-                LeaderView()
+                LeaderList()
                     .tabItem {
                         Label("Leaderboard", systemImage: "list.number")
                     }
