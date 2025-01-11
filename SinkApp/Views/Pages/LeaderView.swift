@@ -9,7 +9,7 @@ import SwiftUI
 
 struct LeaderView: View {
     var body: some View {
-        Text("Hello World")
+        Text("Leaderboard")
     }
 }
 

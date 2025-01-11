@@ -11,7 +11,7 @@ import SwiftUI
 struct SinkApp: App {
     var body: some Scene {
         WindowGroup {
-            ProfileView()
+            ContentView()
         }
     }
 }
