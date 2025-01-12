@@ -21,7 +21,7 @@ struct ContentView: View {
 
     var body: some View {
         VStack {
-            TopView()
+            //TopView()
 
             TabView(selection: $selection) {
                 FeedView()
@@ -53,8 +53,6 @@ struct ContentView: View {
                         Label("Profile", systemImage: "person.crop.circle")
                     }
                     .tag(Tab.profile)
-                TopView()
-                    .offset(y: -100)
             }
         }
     }
