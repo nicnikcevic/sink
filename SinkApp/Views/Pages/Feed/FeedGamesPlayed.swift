@@ -8,7 +8,7 @@
 import SwiftUI
 
 
-struct ListOfGamesPlayed: View {
+struct FeedGamesPlayed: View {
     @State private var searchText = ""
         let games = [
             Game(name: "Apple", color: "Red"),
@@ -25,27 +25,18 @@ struct ListOfGamesPlayed: View {
             Game(name: "Grapes", color: "Purple"),
             Game(name: "Grapes", color: "Purple")
         ]
-
-        var filteredGames: [Game] {
-            if searchText.isEmpty {
-                return games
-            } else {
-                return games.filter { $0.name.lowercased().contains(searchText.lowercased()) }
-            }
-        }
-
+        
         var body: some View {
             NavigationView {
-                List(filteredGames) { game in
+                List(games) { game in
                     GamePlayed(game: game)
-
                 }
-                .searchable(text: $searchText)
+                .navigationTitle("Games Played") // Optional: Set navigation title
             }
         }
 
 }
 
 #Preview {
-    ListOfGamesPlayed()
+    FeedGamesPlayed()
 }
