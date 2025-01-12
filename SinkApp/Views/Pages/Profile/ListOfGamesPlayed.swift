@@ -11,7 +11,7 @@ import SwiftUI
 struct ListOfGamesPlayed: View {
     @State private var searchText = ""
         let games = [
-            Game(name: "Apple", color: "Red"),
+            Game(name: "AHeller17", color: "Red"),
             Game(name: "Banana", color: "Yellow"),
             Game(name: "Cherry", color: "Red"),
             Game(name: "Grapes", color: "Purple"),
@@ -35,16 +35,16 @@ struct ListOfGamesPlayed: View {
         }
 
         var body: some View {
-            NavigationView {
+            NavigationStack {
                 List(filteredGames) { game in
                     GamePlayed(game: game)
-
+                    
                 }
-                .searchable(text: $searchText)
             }
+            .searchable(text: $searchText)
+            .contentMargins(0)
         }
-
-}
+    }
 
 #Preview {
     ListOfGamesPlayed()

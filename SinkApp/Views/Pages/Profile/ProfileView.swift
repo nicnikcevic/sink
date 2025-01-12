@@ -13,7 +13,6 @@ struct ProfileView: View {
             VStack {
                 ProfileHeader()
                 ListOfGamesPlayed()
-                Spacer()
             }
         }
     }
